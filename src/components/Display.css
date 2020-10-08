@@ -1,0 +1,11 @@
+.display {/*tela da calculadora*/
+    grid-column: span 4;/*faz um span dizendo quantas colunas na mesma linha vai ocupar*/
+    background-color: #0004;/*cor da tela*/
+
+    display: flex;/*deixar display flexbox*/
+    justify-content: flex-end;/*alinhado para o lado direito*/
+    align-items: center;/*centralizar o conteudo*/
+    padding: 20px;/*espaçamentos para não ficar grudado*/
+    font-size: 2.1em;/*tamanho da letra*/
+    overflow: hidden;/*garantir q não saia da tela e da borda msm q os numeros sumam de dentro da tela*/
+}

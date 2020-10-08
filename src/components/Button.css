@@ -1,0 +1,34 @@
+:root {/*root pode ser util para declarar uma variavel CSS global:*/
+    --bg-button: #f0f0f0;/*background do botão branco*/
+    --border-button: solid 1px #888;/*borda do botão cinza*/
+}
+
+.button {
+    font-size: 1.4em;/*tamanho botão*/
+    background-color: var(--bg-button);/*representar variavel, bg=background color botão*/
+    border: none;/*sem borda nos botoes*/
+    border-right: var(--border-button);/*variavel borda direita descreve*/
+    border-bottom: var(--border-button);/*variavel, propriedades descrevem a borda inferior de elementos.*/
+    outline: none;/* não aparece a barrinha azul ao clicar no botão*/
+}
+
+.button:active {/*pseudo classe active,, ao clicar no botão a cor fica um pouco mais escuro q a cor normal do botão*/
+    background-color: #ccc;/*cinza-branco*/
+}
+
+.button.double {/*quando o botão ocupa duas posiçoes o que fazer..*/
+    grid-column: span 2;/*aplica classe no botão zero*/
+}
+
+.button.triple {/*para triplo mesmo*/
+    grid-column: span 3;/*ocupando 3 posiçoes*/
+}
+
+.button.operation {/*quando o botão for operação..*/
+    background-color: #fa8231;/*cor laranja em operação *+-/*/
+    color: #FFF;
+}
+
+.button.operation:active {/*quando botão ativo clicado..*/
+    background-color: #fa8231cc;/*clicado fica laranja mais escuro*/
+}

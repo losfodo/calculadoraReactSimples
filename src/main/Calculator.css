@@ -1,0 +1,10 @@
+.calculator {/*css da calculadora designe*/
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;/*borda raio curvatura arredondada*/
+    overflow: hidden;/*escondido o que tiver pra ler*/
+    
+    display: grid;/*muda visual deixa em coluna e aumenta os tamanhos das label modo grid*/
+    grid-template-columns: repeat(4, 25%);/*cada label ocupa 4 colunas por 25% cada */
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;/*1fr:linha tela calculadora display,ajeitando para 48px cada uma das 5 linhas da grid dos botoes*/
+}

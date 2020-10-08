@@ -1,0 +1,19 @@
+@font-face {/* fonte face customizada com a qual exibe o texto*/
+  font-family: 'RobotoMono';/*font pega pelo google na pasta fonts*/
+  src: url('./fonts/RobotoMono-Thin.ttf');/*url da fonte robotomono*/
+}
+
+* {
+  font-family: 'RobotoMono', monospace;/*  *seletor universal fonte roboto se não achar usa monospace*/
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;/*centraliza esquerda direita*/
+  align-items: center;/*centralizar cima e baixo*/
+  text-align: center;/*texto alinhado calculadora*/
+
+  color: #fff;
+  background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));/*2 cores de fundo do site misturadas..uigradientes site para pegar fundos legais*/
+}
