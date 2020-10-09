@@ -1,0 +1,5 @@
+++++++++criando react calculadora++++++++++++++
+*npm i -g create-react-app   : no terminal.. instalar de modo global modulo node react, modulo do node node_modules do react responsavel por criar versão inicial da aplicação react com build web pack, baixando packages e contributors apenas.
+*create-react-app calculadora   :terminal.. cria projeto em si todo de react na pasta calculadora
+*npm start   : terminal na pasta calculadora npm start.. para startar o projeto...
+
